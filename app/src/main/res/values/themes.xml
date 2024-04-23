@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LicensePlaterRecognizer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/redish</item>
+        <item name="colorPrimaryDark">@color/redish</item>
+        <item name="android:statusBarColor">@color/redish</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.LicensePlaterRecognizer" parent="Base.Theme.LicensePlaterRecognizer" />
+</resources>

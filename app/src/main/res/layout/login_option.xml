@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E8E8"
+    tools:context=".login_option">
+
+  <LinearLayout
+      android:id="@+id/topLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="20dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_weight="1.3"
+        android:background="@drawable/utm" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_weight="1.5"
+        android:background="@drawable/logo" />
+
+  </LinearLayout>
+
+  <RelativeLayout
+      android:id="@+id/midLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/topLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Login options"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+  </RelativeLayout>
+
+
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/studentBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="40dp"
+      android:layout_marginEnd="40dp"
+      android:layout_marginTop="50dp"
+      android:foreground="?attr/selectableItemBackground"
+      android:text="Student"
+      android:textSize="20sp"
+      app:layout_constraintTop_toBottomOf="@id/midLayout" />
+
+  <com.google.android.material.button.MaterialButton
+      android:id="@+id/staffBtn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="40dp"
+      android:layout_marginEnd="40dp"
+      android:layout_marginTop="20dp"
+      android:foreground="?attr/selectableItemBackground"
+      android:text="Staff"
+      android:textSize="20sp"
+      app:layout_constraintTop_toBottomOf="@id/studentBtn" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

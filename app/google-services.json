@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "93504676379",
+    "firebase_url": "https://licenseplaterecognizer-a9a92-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "licenseplaterecognizer-a9a92",
+    "storage_bucket": "licenseplaterecognizer-a9a92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93504676379:android:f15c1a6179c964cb0a8ebe",
+        "android_client_info": {
+          "package_name": "com.rev1.licenseplate.recognizer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTo2wzbIxnBfEKjVl252O2Ds5SmwxatB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

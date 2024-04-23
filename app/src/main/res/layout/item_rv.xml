@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:id="@+id/LLitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/idTV"
+            android:layout_width="wrap_content"
+            android:gravity="start"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+        <!--text view for our course name-->
+        <TextView
+            android:id="@+id/plateTV"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="NO PLATE"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
